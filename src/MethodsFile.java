@@ -41,7 +41,7 @@ public class MethodsFile {
   public static void writeFile (String destFile, String[] leapYears) throws IOException {
     File file = new File(destFile);
     BufferedWriter bw = new BufferedWriter(new FileWriter(file));
-    for (int i = 0; i < leapYears.length-1; i++) {
+    for (int i = 0; i < leapYears.length; i++) {
        bw.write(leapYears[i]);
        bw.newLine();
     }
