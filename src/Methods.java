@@ -22,7 +22,7 @@ public class Methods {
    * @param leapYears array that save in if is leap or is not
    */
   public static void leapYears (int[] years, String[] leapYears) {
-    for (int i = 0; i < leapYears.length-1; i++) {
+    for (int i = 0; i < leapYears.length; i++) {
       if (isLeap(years[i])) {
         leapYears[i] = (years[i] + ";Bisiesto");
       } else {
